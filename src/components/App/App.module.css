@@ -1,0 +1,14 @@
+.main {
+  background: var(--dark-blue);
+  margin: 10em 1em 0 1em;
+  border-radius: 10px;
+  padding: 2em;
+  max-width: 23rem;
+}
+
+.icon {
+  background-color: hsl(213, 19%, 22%);
+  padding: 0.8em;
+  border-radius: 50%;
+  width: fit-content;
+}

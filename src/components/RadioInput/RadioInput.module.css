@@ -1,0 +1,22 @@
+.label {
+  display: inline-block;
+  color: var(--light-grey);
+  background: hsl(213, 19%, 22%);
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.9em;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.label:hover {
+  background-color: var(--orange);
+  color: white;
+}
+
+input[type='radio']:checked + .label {
+  background: var(--light-grey);
+  color: var(--white);
+}
